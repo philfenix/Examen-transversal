@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+    background-repeat: repeat-y-x;
+}
+
+#cabezera {
+    background-color: #F1F7EB;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#inicioL {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #419f00;
+}
+
+#menuP1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#menuP {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#menuP1>a {
+    margin: 0 40px 0 0;
+
+}
+
+#menuP>a {
+    margin: 0 40px 0 0;
+
+}
+
+#redes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: greenyellow;
+}
+
+#menu>a {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+
+
+}
+
+#menu {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+
+
+}
+
+#seccion1 {
+
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion2 {
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion3 {
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion4 {
+    box-shadow: 0px 10px 10px black;
+}
+
+.card-body>a {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    color: #419f00;
+}
+
+.SP {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Carshop {
+    display: flex;
+    justify-content: center;
+}
+
+.carshopimg {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#barra {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1F7EB;
+
+}
+
+#inicio>a {
+    color: #090303;
+    text-decoration: none;
+}
+
+#carro>a {
+    color: #090303;
+    text-decoration: none;
+}
+
+#mis_compras>a {
+    color: #090303;
+    text-decoration: none;
+}
+
+#productos>a {
+    color: #090303;
+    text-decoration: none;
+}
+
+#suscribirse>a {
+    color: #090303;
+    text-decoration: none;
+}
+
+#busqueda {
+    display: flex;
+    justify-content: end;
+    background-color: #F1F7EB;
+}
+
+h4 {
+    text-decoration: line-through;
+
+}
+
+#final {
+    display: flex;
+    justify-content: space-between;
+}
+
+#final a {
+    color: darkgreen;
+}

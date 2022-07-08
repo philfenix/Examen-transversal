@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+}
+#banner_titulo{
+  color:rgb(138, 255, 54);
+  padding: 10px 0 10px 0;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: rgb(214, 224, 184);
+  height: 90px;
+}
+
+.menu a{
+  color:#717171;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.menu h4{
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.menu a:hover{
+  background-color: rgb(129, 175, 98);
+}
+
+.menu img{
+  margin-left: 12px;
+  margin-right: 25px;
+}
+ 
+.social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.menu .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.barra .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.barra .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.barra .main_content .publicidad{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.barra .main_content .publicidad div{
+  margin-bottom: 20px;
+}
+
+.introduccion h1{
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.anuncio{
+  display: flex;  
+  justify-content: space-around;
+  margin: auto;
+}
+
+.anuncio img{
+  width: auto;
+}
+
+.anuncio .card-text{
+  margin-top: 50px;
+  display: flex;
+  width: 100px;
+}
+
+.anuncio .btn .btn-primary{
+  background-color: rgb(129, 175, 98);
+}
+
+#info{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1F7EB;
+
+}
+#barra{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1F7EB;
+  
+}
+#inicio>a{
+  color: #090303;
+  text-decoration: none;
+}
+#carro>a{
+  color: #090303;
+  text-decoration: none;
+}
+#mis_compras>a{
+  color: #090303;
+  text-decoration: none;
+}
+#productos>a{
+  color: #090303;
+  text-decoration: none;
+}
+#suscribirse>a{
+  color: #090303;
+  text-decoration: none;
+}
+#busqueda{
+  display: flex;
+  justify-content: end;
+  background-color: #F1F7EB;
+}
+.EndMenu{
+  background-color: #F1F7EB;
+}

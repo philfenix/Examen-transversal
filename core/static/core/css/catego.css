@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:  rgb(214, 224, 184);;  
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: rgb(214, 224, 184);
+  height: 90px;
+}
+
+#header {
+  background-color: #F1F7EB;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.menu h4 {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.menu a:hover {
+  background-color: rgb(129, 175, 98);
+}
+
+.menu img {
+  margin-left: 12px;
+  margin-right: 25px;
+}
+
+
+.card{
+  box-shadow: 0px 10px 10px black;
+
+}
+
+#catalogo_productos {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px 10px 0px 10px;
+} 
+
+.card-body>a {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+
+}
+.card{
+  margin: 0px 10px 0px 10px;
+  margin-top: 20px ;
+  margin-bottom: 50px ;
+}
+.card-body{
+color: rgb(35, 39, 32);
+margin: 0px 10px 0px 10px;
+
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.catalogo_productos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.final {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#barra {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1F7EB;
+
+}
+
+#inicio>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#carro>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#mis_compras>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#productos>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#suscribirse>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#descuentos>a {
+  color: #090303;
+  text-decoration: none;
+}
+
+#busqueda {
+  display: flex;
+  justify-content: end;
+  background-color: #F1F7EB;
+}
+
+
+#final {
+  display: flex;
+  justify-content: space-between;
+}
+#final a{
+  color: darkgreen;
+}
+
+
+#info{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1F7EB;
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+}
+
+
+body{ 
+    font-family: Pacifico;
+    justify-content: space-between;
+    background-color: #D6E0B8;
+    background-size: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+    background-repeat: repeat-y-x;
+}
+
+
+
+
+.registro-form h1{
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.registro-form .panel{
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+  color: rgb(73, 121, 128);
+}
+
+
+label.label-floatlabel {
+    font-weight: bold;
+    color: rgb(136, 179, 69);
+    font-size: 11px;
+}
+

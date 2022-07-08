@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+     padding: 0;
+     margin: 0;
+
+} 
+
+body {
+     background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+     background-repeat: repeat-y-x;
+}
+
+
+.menu {
+display: flex;
+align-items: center;
+background-color: rgb(214, 224, 184);
+height: 90px;
+}
+
+.menu a{
+color:#717171;
+text-decoration: none;
+padding: 5px;
+font-size: 1.2em;
+}
+
+.menu h4{
+padding: 5px;
+margin-right: 10px;
+}
+
+.menu h1 {
+display: flex;
+justify-content: center;
+padding: 5px;
+margin-right: 10px;
+}
+
+.menu img{
+margin-left: 12px;
+margin-right: 25px;
+}
+
+
+
+#barra{
+     display: flex;
+     justify-content: space-around;
+     background-color: #F1F7EB;
+     
+}
+#inicio>a{
+     color: #090303;
+     text-decoration: none;
+}
+#carro>a{
+     color: #090303;
+     text-decoration: none;
+}
+#mis_compras>a{
+     color: #090303;
+     text-decoration: none;
+}
+#productos>a{
+     color: #090303;
+     text-decoration: none;
+}
+#suscribirse>a{
+     color: #090303;
+     text-decoration: none;
+}
+#busqueda{
+     display: flex;
+     justify-content: end;
+}
+
+#titulo {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+}
+
+
+
+#contenido {
+     height: 0 auto;
+     width: 80%;
+     margin: 0 auto;
+     background-color: #ffffff;
+     display: flex;
+     align-content: space-around;
+
+}
+
+#pie_de_pagina {
+     height: 20vh;
+}
+
+#pie_de_pagina_2 {
+     height: 20vh;
+     background-color: #18A85F;
+}
+
+#a1 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+#a2 {
+     justify-content: end;
+     flex-wrap: nowrap;
+}
+
+#cambiar_seccion{
+     display: flex;
+     width: 80%;
+     margin: 0 auto;
+}
+

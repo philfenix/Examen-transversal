@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carro</title>
+  <link rel="stylesheet" href="{% static 'core/css/descuentos.css' %}">
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <div id="cabezera">
+    <div class="carshopimg"><img src="{% static 'core/img/imagen/icons8_shopping_cart_45px.png' %}" alt=""></div>
+    <div class="Carshop">
+      <h2>
+        <p>Descuentos</p>
+      </h2>
+    </div>
+  </div>
+
+  <div id="barra">
+    <div id="inicio">
+    <img src="{% static 'core/img/images/inicio.png'%}" alt="">
+    <a href="{% url 'home' %}"> INICIO</a>
+    </div>
+    <div id="productos">
+    <img src="{% static 'core/img/images/productos.png'%}" alt="">
+    <a href="{% url 'catego' %}">PRODUCTOS</a>
+    
+    </div>
+    <div id="carro">
+    <img src="{% static 'core/img/images/carro.png'%}" alt="">
+    <a href="{% url 'carro' %}"> CARRO</a>
+    </div>
+    <div id="mis_compras">
+    <img src="{% static 'core/img/images/mis_compras.png'%}" alt="">
+    <a href="{% url 'mis_compras' %}"> MIS COMPRAS</a>
+    </div>
+    <div id="suscribirse">
+    <img src="{% static 'core/img/images/suscribirse.png'%}" alt="">
+    <a href="{% url 'suscribirse' %}">SUSCRIBIRSE</a>
+    </div>
+    <div id="busqueda">
+    <nav class="navbar navbar-light" style="background-color: #F1F7EB;">
+         <div class="container-fluid">
+         <form class="d-flex">
+              <input class="form-control me-5" type="buscar" placeholder="buscar" aria-label="buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+         </form>
+         </div>
+    </nav>
+    </div>
+  </div>
+
+  <ul class="list-group">
+    <li class="list-group-item" style="background-color: #F1F7EB;">
+
+      <marquee behavior="alternate" style="border:solid">
+        <h2 style="color: red;">Haste socio y obten 5% en todas tus compras!</h2>
+      </marquee>
+
+    </li>
+  </ul>
+
+  <hr>
+
+  <div id="productos">
+    <div id="menu">
+      <div id="seccion1">
+        <div class="card" style="width: 18rem; ">
+          <img src="https://falabella.scene7.com/is/image/Falabella/15319379_1?wid=1500&hei=1500&qlt=70"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bandanas color azul</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 11% de descuento<h3>$4.450<img
+              src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%></h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+        </div>
+      </div>
+      <div id="seccion2">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.shopify.com/s/files/1/2646/1218/products/IMG_1123_480x480.JPG?v=1632068525"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bandanas color negro</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 8% de descuento<h3>$4.600<img
+              src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%></h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+        </div>
+      </div>
+      <div id="seccion3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSGppEg6Nw9pyY2o-EwGGhAQpTNa9fH_WiZfFldtGL0BmF14TDQBBfgmCNSzuMrQJlWEs&usqp=CAU"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bandanas color verde</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 7% de descuento<h3>$4.650<img
+              src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%></h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+        </div>
+      </div>
+      <div id="seccion4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://m.media-amazon.com/images/I/81BGxKAFWML._AC_SX466_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bandanas color rojo</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 9% de descuento<h3>$4.550<img
+              src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%></h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id="productos">
+    <div id="menu">
+      <div id="seccion1">
+        <div class="card" style="width: 18rem; ">
+          <img src="https://th.bing.com/th/id/R.005418b3464507c838fb0847d09d2572?rik=3qMlA9IDT5Lmfg&pid=ImgRaw&r=0"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">identificadores para perro</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 10% de descuento<h3>$4.500 <img
+                src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%>
+            </h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+
+        </div>
+      </div>
+      <div id="seccion2">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.ebayimg.com/images/g/WpMAAOSwJHZdaSgL/s-l300.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">identificadores parra gatos</h5>
+            <p class="card-text">
+            <h4 class="text-muted">$5.000</h4> Hasta El 10% de descuento<h3>$4.500<img
+              src="https://www.masqueuno.cl/wp-content/uploads/2015/08/oferta-promociones.png" alt="" width=20%></h3>
+            </p>
+            <a href="#" class="btn btn-primary">¡Comprar!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <div id="final">
+    <div id="volver">
+        <a title="Volver" href="{% url 'home' %}"><img src="{% static 'core/img/imagen/volver.png' %}" alt="Volver" /></a>
+        <a href="{% url 'home' %}">Volver</a>
+    </div>
+    
+    <div id="editar">
+        <a href="{% url 'descuentos_crud' %}">Modificar Promociones</a>
+        <a title="Modificar Existencias" href="{% url 'descuentos_crud' %}"><img src="{% static 'core/img/imagen/editar.png' %}" alt="Modificar_Existencias" /></a>
+    </div>
+</div>
+
+  <hr>
+</body>
+
+</html>

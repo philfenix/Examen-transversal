@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+#header{
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+
+body{
+    background-color: #D6E0B8;
+    background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+    background-repeat: repeat-y-x;
+}
+
+.form-login{
+    width: 400px;
+    height: 400px;
+    background: rgb(174, 190, 107);
+    margin: auto;
+    /*margin-top: 200px;*/
+    box-shadow: 7px 13px 37px rgb(73, 121, 128);
+    padding: 20px 30px;
+    border-top: 4px solid rgb(130, 154, 30);
+    color: rgb(55, 90, 28);
+}
+
+.form-login h1{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid rgb(7, 62, 114);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(136, 179, 69);
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: rgb(73, 121, 128);
+}
+
+.form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover{
+    text-decoration: underline;
+}
+
+.final{
+    display: flex;
+    justify-content: flex-end;
+  }
